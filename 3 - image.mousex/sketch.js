@@ -15,17 +15,15 @@ function setup(){
    createCanvas(windowWidth, windowHeight);
 }
  
-
-function draw(){
+  function draw(){
   background (51);
   
   mm = map(mouseX, 0, windowWidth, 1, 4);
   //for (var i = 0; i < 4; ){ 
   //img[] = loadImage('img'+mm+'.jpg');
   //}
-
-   
-   image(img[mm], 0, 0);
+  
+  image(img[mm], 0, 0);
 
   }
 
